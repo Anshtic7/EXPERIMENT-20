@@ -134,6 +134,54 @@ This step converts raw outputs into meaningful insights.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+**Functions used:**
+
+read_csv() – Loads a CSV file into a DataFrame.
+
+head() – Displays the first few rows of the dataset.
+
+info() – Provides summary information about the DataFrame (columns, data types, null values).
+
+drop() – Removes specified rows or columns from the dataset.
+
+fillna() – Replaces missing (NaN) values with specified values.
+
+groupby() – Groups data based on one or more columns for aggregation.
+
+sum() – Calculates the sum of values in a column or group.
+
+max() – Returns the maximum value from a dataset or column.
+
+nunique() – Counts the number of unique values in a column.
+
+unique() – Returns all unique values from a column.
+
+value_counts() – Counts the frequency of each unique value in a column.
+
+sort_values() – Sorts the DataFrame based on column values.
+
+reset_index() – Resets the index of the DataFrame to default.
+
+astype() – Converts data type of a column.
+
+copy() – Creates a copy of the DataFrame.
+
+dict() – Creates a dictionary object.
+
+load() – Loads data from a file or object (commonly JSON).
+
+urlopen() – Opens a URL to read data from the web.
+
+choropleth() – Creates a choropleth map visualization.
+
+update_layout() – Updates layout properties of a plot (titles, margins, etc.).
+
+update_geos() – Updates geographical settings in map visualizations.
+
+show() – Displays the generated plot or output.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 **Conclusion**
 
 In this experiment, COVID-19 data was successfully analyzed using Python to understand the spread and impact of COVID-19. The dataset was first cleaned and preprocessed to ensure accuracy and consistency. Exploratory Data Analysis (EDA) helped in identifying trends, patterns, and variations in confirmed, recovered, and death cases over time.
